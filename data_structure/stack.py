@@ -2,6 +2,8 @@
 # frequently access to elements other than both ends -> list O(1)
 
 # LIFO(Last In First Out)
+# push -> append()
+# pop -> pop()
 
 from collections import deque
 
@@ -11,10 +13,7 @@ print(d)
 d.append('d')
 print(d)
 
-d.popleft()
-print(d)
-
-d.appendleft('e')
+d.append('e')
 print(d)
 
 d.pop()
